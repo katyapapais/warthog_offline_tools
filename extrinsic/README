@@ -1,0 +1,25 @@
+# Extrinsic Calibration Tools
+This directory contains tools for performing extrinsic calibration. At the moment, the available calibration is specific to Aeva->Ouster.
+
+## Instructions
+
+Before proceeding with the extrinsic calibration, ensure that the code in the `/cpp` folder is built. Follow these steps:
+
+1. Navigate to the `/cpp` directory:
+    ```
+    cd cpp
+    ```
+
+2. Build the code:
+    ```
+    mkdir -p build
+    cd build
+    cmake ..
+    make
+    ```
+
+Once the build process is complete, you can use the calibration scripts.
+
+## Notes
+
+- Ensure all dependencies required for building the `/cpp` folder are installed.
