@@ -21,4 +21,4 @@ python3 extract_pointclouds/extract.py --root $root
 mkdir -p $root/novatel
 
 echo 'Extracting gps log file...'
-python3 extract_gps/extract.py --root $root
+python3 extract_gps/novatel_bag_to_log.py --root $root
